@@ -1,12 +1,13 @@
 import React from 'react';
 
 const Card = ({ content, text, chart }) => {
+  console.log(content.img)
   return (
     <div>
       <h2 className="text-2xl font-semibold">{content?.headline}</h2>
       <div className="relative dark:bg-bgDark-100 shadow-lg rounded-lg lg:p-8 pb-8 mt-6">
         <div className="relative overflow-hidden mb-6">
-          { content?.img && <img src={content?.img} alt={content?.imgDesc} className="object-top h-full w-full object-cover rounded-lg lg:rounded-lg"/> }
+          { content?.img && <img src={content.img} alt={content?.imgDesc} className="object-top h-full w-full object-cover rounded-lg lg:rounded-lg"/> }
           { chart }
           <div className="px-4 lg:px-0">
             { (content?.subtitle && content?.icon) &&

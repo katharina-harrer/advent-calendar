@@ -6,7 +6,7 @@ const Day16Content = () => {
     <Card 
       content={{
         headline: "Türchen 16 – Tipps",
-        img: "./assets/wine.jpg",
+        img: "../assets/wine.jpg",
         imgDesc: "Wine",
         icon: "wine",
         subtitle: "Vorsicht bei vermeintlich veganen Lebensmitteln",

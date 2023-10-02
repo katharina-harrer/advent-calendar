@@ -6,7 +6,7 @@ const Day14Content = () => {
     <Card 
       content={{
         headline: "Türchen 14 – Wo fange ich an?",
-        img: "./assets/meal.jpg",
+        img: "../assets/meal.jpg",
         imgDesc: "Meal",
         icon: "fast-food",
         subtitle: "Veganisiere deine Lieblingsgerichte",

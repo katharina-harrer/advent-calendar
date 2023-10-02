@@ -6,7 +6,7 @@ const Day7Content = () => {
     <Card 
       content={{
         headline: "Türchen 7 – Motivation finden",
-        img: "./assets/skin.jpg",
+        img: "../assets/skin.jpg",
         imgDesc: "Herzgesundheit",
         icon: "leaf",
         subtitle: "Vegan für deine Haut",

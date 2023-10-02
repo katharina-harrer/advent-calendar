@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import BaseComponent from './pages/BaseComponent';
+import { Home, AdventCalendar } from './pages';
 
 const App = () => {
 
@@ -9,7 +9,8 @@ const App = () => {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/:day?/*" element={<BaseComponent />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/adventcalendar/:day?/*" element={<AdventCalendar />} />
         </Routes>
       </Router>
     </div>

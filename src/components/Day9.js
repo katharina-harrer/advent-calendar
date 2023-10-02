@@ -7,7 +7,7 @@ const Day9Content = () => {
     <Card 
       content={{
         headline: "Türchen 9 – Nährstoffe",
-        img: "./assets/nutrition.jpg",
+        img: "../assets/nutrition.jpg",
         imgDesc: "Nährstoffe",
         icon: "leaf",
         subtitle: "Decke ich alle Nährstoffe mit einer veganen Ernährung ab?",

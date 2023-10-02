@@ -7,7 +7,7 @@ const Day20Content = () => {
     <Card 
       content={{
         headline: "Türchen 20 – Tipps",
-        img: "./assets/restaurant.jpg",
+        img: "../assets/restaurant.jpg",
         imgDesc: "restaurant",
         icon: "restaurant",
         subtitle: "Vegane Restaurants ausfindig machen",

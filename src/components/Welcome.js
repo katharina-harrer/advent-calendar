@@ -6,7 +6,7 @@ const Welcome = () => {
     <Card 
       content={{
         headline: "Herzlich willkommen zum Start unseres Adventskalenders!",
-        img: "./assets/decorating.svg",
+        img: "../assets/decorating.svg",
         imgDesc: "Decoration",
       }}
       text={<>

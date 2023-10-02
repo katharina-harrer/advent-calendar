@@ -3,8 +3,9 @@ import { Route, Routes, useParams  } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { Welcome, Day1, Day2, Day3, Day4, Day5, Day6, Day7, Day8, Day9, Day10, Day11, Day12, Day13, Day14, Day15, Day16, Day17, Day18, Day19, Day20, Day21, Day22, Day23, Day24 } from '../components';
 
-const BaseComponent = () => {
+const AdventCalendar = () => {
 
+  const pathName = 'adventcalendar';
   const { day } = useParams();
   const currentDay = parseInt(day, 10);
   const notValidDay = currentDay <= 0 || currentDay === undefined || !currentDay;  
@@ -121,7 +122,7 @@ const BaseComponent = () => {
             disabled={notValidDay}
           >
             { prevDay >= 0 ? 
-              <Link to={prevDay > 0 ? `/${prevDay}` : '/'}>
+              <Link to={prevDay > 0 ? `/${pathName}/${prevDay}` : `/${pathName}`}>
                 <ion-icon name="chevron-back" />
               </Link> :
               <ion-icon name="chevron-back" />
@@ -132,7 +133,7 @@ const BaseComponent = () => {
             disabled={currentDay >= 24}
           >
             { nextDay <= 24 ? 
-              <Link to={`/${nextDay}`}>
+              <Link to={`/${pathName}/${nextDay}`}>
                 <ion-icon name="chevron-forward" />
               </Link> :
               <ion-icon name="chevron-forward" />
@@ -144,4 +145,4 @@ const BaseComponent = () => {
   );
 }
 
-export default BaseComponent;
+export default AdventCalendar;
