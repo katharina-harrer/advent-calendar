@@ -18,6 +18,16 @@ module.exports = {
         }
       }
     },
+    colors: {
+      svg: {
+        50: '#F2E9E9',
+        100: '#E6D8D6'
+      },
+      svgDark: {
+        50: '#4A4E60',
+        100: '#3A3D4C'
+      }
+    },
   },
   plugins: []
 }

@@ -7,7 +7,7 @@ const Day12Content = () => {
     <Card 
       content={{
         headline: "Türchen 12 – Deine persönliche Challenge",
-        img: "../assets/dailyDozen.jpg",
+        img: "./assets/dailyDozen.jpg",
         imgDesc: "Vegetables",
         icon: "nutrition",
         subtitle: "Die Daily Dozen",

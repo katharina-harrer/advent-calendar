@@ -6,7 +6,7 @@ const Day18Content = () => {
     <Card 
       content={{
         headline: "Türchen 18 – Tipps",
-        img: "../assets/gingerbread.jpg",
+        img: "./assets/gingerbread.jpg",
         imgDesc: "Gingerbread Man",
         icon: "accessibility",
         subtitle: "Entdecke die veganen Weihnachtsleckereien",

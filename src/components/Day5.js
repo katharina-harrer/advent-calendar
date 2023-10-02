@@ -8,7 +8,7 @@ const Day5Content = () => {
     <Card 
         content={{
             headline: "Türchen 5 – Motivation finden",
-            img: "../assets/health.jpg",
+            img: "./assets/health.jpg",
             imgDesc: "Gesundheit",
             icon: "pulse",
             subtitle: "Vegan für deine Gesundheit",
