@@ -15,7 +15,7 @@ const Card = ({ content, text, chart }) => {
                 {content?.subtitle}
               </h1>
             }
-            <p className="text-justify hypens-auto" lang="de">
+            <p className="text-justify hyphens-auto" lang="de">
                 {text}
             </p>
           </div>
