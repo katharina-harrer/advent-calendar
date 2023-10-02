@@ -7,7 +7,7 @@ const Day12Content = () => {
     <Card 
       content={{
         headline: "Türchen 12 – Deine persönliche Challenge",
-        img: "./assets/dailyDozen.jpg",
+        img: "adventcalendar/assets/dailyDozen.jpg",
         imgDesc: "Vegetables",
         icon: "nutrition",
         subtitle: "Die Daily Dozen",
@@ -43,9 +43,9 @@ const Day12Content = () => {
         notwendigen Bausteinen versorgst, <b>um gesund und vital zu bleiben</b>.
         Eine kostengünstige vegane Ernährung ist also möglich, insbesondere wenn du auf vollwertige 
         Lebensmittel setzt und stark verarbeitetete Lebensmittel eher eine Ausnahme sind.
-        <div className="mt-4 text-center text-xl text-primary">
+        <span className="block mt-4 text-center text-xl text-primary">
         Jetzt bist du gefragt, Challenge dich selbst und versuche die "Daily Dozen" in deinen Alltag zu integrieren.
-        </div>
+        </span>
       </>}
     />
   );

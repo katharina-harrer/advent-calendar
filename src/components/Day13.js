@@ -6,7 +6,7 @@ const Day13Content = () => {
     <Card 
       content={{
         headline: "Türchen 13 – Grundlagen",
-        img: "./assets/stagesOfLife.jpg",
+        img: "adventcalendar/assets/stagesOfLife.jpg",
         imgDesc: "Lebensabschnitte",
         icon: "leaf",
         subtitle: "Ist Veganismus in jedem Lebensabschnitt empfehlenswert?",

@@ -6,7 +6,7 @@ const Day23Content = () => {
     <Card 
       content={{
         headline: "Türchen 23 – Deine persönliche Challenge",
-        img: "./assets/challenge.jpg",
+        img: "adventcalendar/assets/challenge.jpg",
         imgDesc: "Challenge",
         icon: "leaf",
         subtitle: "Veganuary",
@@ -26,9 +26,9 @@ const Day23Content = () => {
         <br/>
         <b>Die letzten Tage des Adventskalenders</b> haben dich bestens auf diese Challenge vorbereitet 
         und <b>bieten eine Fülle an Informationen und Tipps für deinen erfolgreichen Start in den Veganuary.</b>
-        <div className="mt-4 text-center text-xl text-primary">
+        <span className="block mt-4 text-center text-xl text-primary">
           Viel Spaß auf deiner Reise!
-        </div>
+        </span>
       </>}
     />
   );

@@ -6,7 +6,7 @@ const Day11Content = () => {
     <Card 
       content={{
         headline: "Türchen 11 – Selbstreflexion",
-        img: "./assets/farm.jpg",
+        img: "adventcalendar/assets/farm.jpg",
         imgDesc: "Farm",
         icon: "storeFront",
         subtitle: "Aber ich konsumiere nur Fleisch vom Bauer meines Vertrauens!",

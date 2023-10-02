@@ -6,7 +6,7 @@ const Day21Content = () => {
     <Card 
       content={{
         headline: "Türchen 21 – Tipps",
-        img: "./assets/community.jpg",
+        img: "adventcalendar/assets/community.jpg",
         imgDesc: "Community",
         icon: "people-circle-outline",
         subtitle: "Gleichgesinnte treffen",

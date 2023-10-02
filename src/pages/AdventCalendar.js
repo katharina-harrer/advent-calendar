@@ -1,12 +1,16 @@
 import React, { useEffect, useState } from 'react';
-import { Route, Routes, useParams  } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { Welcome, Day1, Day2, Day3, Day4, Day5, Day6, Day7, Day8, Day9, Day10, Day11, Day12, Day13, Day14, Day15, Day16, Day17, Day18, Day19, Day20, Day21, Day22, Day23, Day24 } from '../components';
 
 const AdventCalendar = () => {
 
   const pathName = 'adventcalendar';
-  const { day } = useParams();
+
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+  const day = queryParams.get('day');
+
   const currentDay = parseInt(day, 10);
   const notValidDay = currentDay <= 0 || currentDay === undefined || !currentDay;  
   
@@ -59,6 +63,8 @@ const AdventCalendar = () => {
       else element.classList.remove('dark');
     }
   })
+
+  const scrollToTop = () => window.scrollTo({ top: 0 });
 
   const DayContent = () => {
     switch (currentDay) {
@@ -113,16 +119,15 @@ const AdventCalendar = () => {
         </div>
         <br/>
         <br/>
-        <Routes>
-          <Route path="/:day?" element={notValidDay ? <Welcome /> : <DayContent/>} />
-        </Routes>
+        { notValidDay ? <Welcome /> : <DayContent /> }
         <div className="flex justify-between py-8">
           <button 
             className='w-8 h-8 leading-9 text-xl rounded-full m-1 enabled:text-textDark enabled:dark:text-bgDark-150 dark:bg-secondaryDark bg-secondary disabled:dark:bg-bgDark-100 disabled:bg-bgLight'
             disabled={notValidDay}
+            onClick={scrollToTop}
           >
             { prevDay >= 0 ? 
-              <Link to={prevDay > 0 ? `/${pathName}/${prevDay}` : `/${pathName}`}>
+              <Link to={prevDay > 0 ? `/${pathName}?day=${prevDay}` : `/${pathName}`}>
                 <ion-icon name="chevron-back" />
               </Link> :
               <ion-icon name="chevron-back" />
@@ -131,9 +136,10 @@ const AdventCalendar = () => {
           <button 
             className='w-8 h-8 leading-9 text-xl rounded-full m-1 enabled:text-textDark enabled:dark:text-bgDark-150 dark:bg-secondaryDark bg-secondary  disabled:dark:bg-bgDark-100 disabled:bg-bgLight'
             disabled={currentDay >= 24}
+            onClick={scrollToTop}
           >
             { nextDay <= 24 ? 
-              <Link to={`/${pathName}/${nextDay}`}>
+              <Link to={`/${pathName}?day=${nextDay}`}>
                 <ion-icon name="chevron-forward" />
               </Link> :
               <ion-icon name="chevron-forward" />

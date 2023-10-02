@@ -20,7 +20,7 @@ const Day2Content = ({ darkMode }) => {
       <br/>
       Im Durchschnitt haben die Teilnehmer der Studie, die sich als Veganer bezeichneten, Treibhausgasemissionen, die etwa der Hälfte derjenigen entsprechen, die angaben, viel Fleisch zu essen.
       <br/>
-      Wenn du mehr erfahren möchtest, kannst du dir die vollständige Studie <a href="https://bit.ly/3f5E0RG" target="_blank" rel="noreferrer">hier</a> genauer ansehen.
+      Wenn du mehr erfahren möchtest, kannst du dir die vollständige Studie <a href="https://bit.ly/3f5E0RG" target="_blank" rel="noreferrer" className="text-primary">hier</a> genauer ansehen.
     </>}
     chart={ <div className="pt-4">
     <Chart

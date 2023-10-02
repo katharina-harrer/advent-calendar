@@ -10,7 +10,7 @@ const App = () => {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/adventcalendar/:day?/*" element={<AdventCalendar />} />
+          <Route path="/adventcalendar" element={<AdventCalendar />} />
         </Routes>
       </Router>
     </div>

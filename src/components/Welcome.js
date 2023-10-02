@@ -11,7 +11,7 @@ const Welcome = () => {
         <br/><br/>
         Dann könnte dieser digitale Adventskalender genau das Richtige für dich sein! <b>Jeden Tag bis zum 24. Dezember 
         erwarten dich spannende Überraschungen und Inhalte rund um Veganismus und Nachhaltigkeit.</b>
-        <div className="mt-4 text-center text-xl text-primary">Lass uns gemeinsam diese festliche Reise beginnen!</div>
+        <span className="block mt-4 text-center text-xl text-primary">Lass uns gemeinsam diese festliche Reise beginnen!</span>
       </>}
       svg={
         <svg width="3000" height="3000" viewBox="0 0 3000 3000" fill="none" xmlns="http://www.w3.org/2000/svg" className="object-top h-full w-full object-cover rounded-lg lg:rounded-lg">

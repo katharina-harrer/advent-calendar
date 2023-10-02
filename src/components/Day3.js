@@ -6,7 +6,7 @@ const Day3Content = () => {
     <Card 
       content={{
         headline: "Türchen 3 – Motivation finden",
-        img: "./assets/sustainability.jpg",
+        img: "adventcalendar/assets/sustainability.jpg",
         imgDesc: "Nachhaltigkeit",
         icon: "earth",
         subtitle: "Vegan für mehr Nachhaltigkeit",

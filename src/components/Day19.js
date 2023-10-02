@@ -6,7 +6,7 @@ const Day19Content = () => {
     <Card 
       content={{
         headline: "Türchen 19 – Tipps",
-        img: "./assets/snacks.jpg",
+        img: "adventcalendar/assets/snacks.jpg",
         imgDesc: "Snacks",
         icon: "nutrition",
         subtitle: "Snacks für unterwegs vorbereiten",
