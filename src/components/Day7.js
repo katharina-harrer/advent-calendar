@@ -6,7 +6,7 @@ const Day7Content = () => {
     <Card 
       content={{
         headline: "Türchen 7 – Motivation finden",
-        img: "adventcalendar/assets/skin.jpg",
+        img: "./assets/skin.jpg",
         imgDesc: "Herzgesundheit",
         icon: "leaf",
         subtitle: "Vegan für deine Haut",
@@ -14,7 +14,7 @@ const Day7Content = () => {
         imgAttrTitle: "Image by vectorjuice on Freepik"
       }}
       text={<>
-        Wusstest du, dass der Konsum von Milchprodukten oft mit oft mit Akne in Verbindung 
+        Wusstest du, dass der Konsum von Milchprodukten oft mit Akne in Verbindung 
         gebracht wird? Das liegt daran, dass Milchprodukte Hormone enthalten, die die Talgproduktion 
         erhöhen können. Dies kann die Bildung von Mitessern und Pickeln fördern. <b>Darüber hinaus 
         können Milchprodukte den Insulinspiegel erhöhen und Entzündungen im Körper 

@@ -6,7 +6,7 @@ const Day6Content = () => {
     <Card 
       content={{
         headline: "Türchen 6 – Motivation finden",
-        img: "adventcalendar/assets/heart.jpg",
+        img: "./assets/heart.jpg",
         imgDesc: "Herzgesundheit",
         icon: "fitness",
         subtitle: "Vegan für dein Herz",
@@ -14,7 +14,7 @@ const Day6Content = () => {
         imgAttrTitle: "Image by vectorjuice on Freepik"
       }}
       text={<>
-        Veganismus kann das Risiko von Herzkrankheiten reduzieren. 
+        Veganismus kann das Risiko von Herzkreislaufkrankheiten reduzieren. 
         Pflanzliche Ernährungsmuster sind in der Regel fettarm und cholesterinfrei, 
         was dazu beiträgt, den Cholesterinspiegel zu senken und den Blutdruck zu regulieren.
       </>}

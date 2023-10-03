@@ -6,7 +6,7 @@ const Day18Content = () => {
     <Card 
       content={{
         headline: "Türchen 18 – Tipps",
-        img: "adventcalendar/assets/gingerbread.jpg",
+        img: "./assets/gingerbread.jpg",
         imgDesc: "Gingerbread Man",
         icon: "accessibility",
         subtitle: "Entdecke die veganen Weihnachtsleckereien",
@@ -15,26 +15,26 @@ const Day18Content = () => {
       }}
       text={<>
         Verwöhne dich während der Weihnachtszeit mit veganen Leckereien wie Plätzchen, 
-        Klöße mit Soße und vielem mehr. <b>Es gibt unzählige vegane Rezepte für traditionelle Festtagsgerichte, 
+        Kloß mit Soße und vielem mehr. <b>Es gibt unzählige vegane Rezepte für traditionelle Festtagsgerichte, 
         die genauso köstlich sind wie ihre nicht-veganen Varianten.</b> Du kannst festliche Klassiker in veganer Form zubereiten 
         und dabei die Tiere und die Umwelt schonen. 
         <br/>
         Entdecke die Freude am veganen Kochen und Backen während der besinnlichen Weihnachtszeit.
         <br/>
         Hier habe ich dir einige Rezepte verlinkt:
-        <ul>
+        <ul className="list-disc list-inside text-primary">
           <li>
-            <a href="https://www.zuckerjagdwurst.com/de/rezepte/plaetzchen-3-klassiker-in-vegan" target="_blank" rel="noreferrer" className="text-primary">
+            <a href="https://www.zuckerjagdwurst.com/de/rezepte/plaetzchen-3-klassiker-in-vegan" target="_blank" rel="noreferrer">
               Vanillekipferl, Husarenkrapfen, Schneebälle, Ausstecher, Florentiner, Spitzbuben, Schokoladenbrot, Zimtsterne, Lebkuchen
             </a>
           </li>
           <li>
-            <a href="https://www.eat-this.org/vegane-bratensauce/" target="_blank" rel="noreferrer" className="text-primary">
+            <a href="https://www.eat-this.org/vegane-bratensauce/" target="_blank" rel="noreferrer">
               Bratensoße
             </a>
           </li>
           <li>
-            <a href="https://www.zuckerjagdwurst.com/de/rezepte/vegane-kartoffelklossee-pilzgulasch-rotkraut" target="_blank" rel="noreferrer" className="text-primary">
+            <a href="https://www.zuckerjagdwurst.com/de/rezepte/vegane-kartoffelklossee-pilzgulasch-rotkraut" target="_blank" rel="noreferrer">
               Kartoffelklöße mit Pilzgulasch und Rotkraut
             </a>
           </li>

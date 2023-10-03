@@ -114,8 +114,10 @@ const AdventCalendar = () => {
       </div>
       <div className="max-w-3xl mx-auto px-5">
         <div className="text-center">
-          <h1 className="text-3xl font-bold">{title}</h1>
-          <h5 className="text-lg">{subtitle}</h5>
+          <Link to={`/${pathName}`}>
+            <h1 className="text-3xl font-bold">{title}</h1>
+            <h5 className="text-lg">{subtitle}</h5>
+          </Link>
         </div>
         <br/>
         <br/>

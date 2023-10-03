@@ -7,7 +7,7 @@ const Day9Content = () => {
     <Card 
       content={{
         headline: "Türchen 9 – Nährstoffe",
-        img: "adventcalendar/assets/nutrition.jpg",
+        img: "./assets/nutrition.jpg",
         imgDesc: "Nährstoffe",
         icon: "leaf",
         subtitle: "Decke ich alle Nährstoffe mit einer veganen Ernährung ab?",
@@ -23,7 +23,7 @@ const Day9Content = () => {
         <br/>
         <Heading title={'Kalzium'} icon={'leaf'} />
         Für Kalzium, das <b>wichtig für starke Knochen</b> ist, kannst du auf Lebensmittel wie angereicherte Pflanzenmilch, 
-        grünes Blattgemüse, Tofu und Sesamsamen zurückgreifen. 
+        grünes Blattgemüse, Kohlgemüse, Tofu, Nüsse und Samen zurückgreifen. 
         <br/>
         <Heading title={'Eisen'} icon={'extension-puzzle'} />
         Eisen findest du in Lebensmitteln wie Hülsenfrüchten, Nüssen und Samen, Vollkornprodukten und dunkelgrünem Gemüse.

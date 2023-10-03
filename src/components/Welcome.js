@@ -4,7 +4,7 @@ import Card from './Card';
 const Welcome = () => {
   return (
     <Card 
-      content={{ headline: "Herzlich willkommen zum Start unseres Adventskalenders!" }}
+      content={{ headline: "Herzlich willkommen zum Start deines Adventskalenders!" }}
       text={<>
         Bist du offen für die vegane Lebensweise, aber es fehlt noch der entscheidende Anstoß, um Veränderungen anzugehen? 
         Du bist dir unsicher, wo du am besten beginnen sollst, um deine Gewohnheiten nachhaltiger zu gestalten? 

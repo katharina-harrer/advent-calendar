@@ -6,7 +6,7 @@ const Day22Content = () => {
     <Card 
       content={{
         headline: "Türchen 22 – Nachsichtig sein",
-        img: "adventcalendar/assets/selflove.jpg",
+        img: "./assets/selflove.jpg",
         imgDesc: "Selflove ",
         icon: "heart",
         subtitle: "Niemand ist perfekt",

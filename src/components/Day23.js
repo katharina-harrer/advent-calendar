@@ -6,7 +6,7 @@ const Day23Content = () => {
     <Card 
       content={{
         headline: "Türchen 23 – Deine persönliche Challenge",
-        img: "adventcalendar/assets/challenge.jpg",
+        img: "./assets/challenge.jpg",
         imgDesc: "Challenge",
         icon: "leaf",
         subtitle: "Veganuary",

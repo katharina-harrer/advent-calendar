@@ -6,7 +6,7 @@ const Day10Content = () => {
     <Card 
       content={{
         headline: "Türchen 10 – Nährstoffe",
-        img: "adventcalendar/assets/supplements.jpg",
+        img: "./assets/supplements.jpg",
         imgDesc: "Nährstoffe",
         icon: "eyedrop",
         subtitle: "Ist es nicht unnatürlich, B12 zu supplementieren?",

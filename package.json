@@ -1,6 +1,6 @@
 {
   "name": "advent-calendar",
-  "homepage": "/adventcalendar/",
+  "homepage": "/adventcalendar",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

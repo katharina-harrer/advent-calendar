@@ -6,7 +6,7 @@ const Day13Content = () => {
     <Card 
       content={{
         headline: "Türchen 13 – Grundlagen",
-        img: "adventcalendar/assets/stagesOfLife.jpg",
+        img: "./assets/stagesOfLife.jpg",
         imgDesc: "Lebensabschnitte",
         icon: "leaf",
         subtitle: "Ist Veganismus in jedem Lebensabschnitt empfehlenswert?",
@@ -23,7 +23,7 @@ const Day13Content = () => {
         einschließlich Protein, Vitamin B12, Eisen, Calcium und Omega-3-Fettsäuren, einhergehen können. 
         <br/>
         <b>Diese Organisationen unterstreichen die gesundheitlichen Vorteile einer pflanzlichen Ernährung</b>, 
-        darunter eine niedrigere Rate von Herzkrankheiten, Typ-2-Diabetes und bestimmten Krebsarten. 
+        darunter eine niedrigere Rate von Herzkreislaufkrankheiten, Typ-2-Diabetes und bestimmten Krebsarten. 
         Dennoch wird darauf hingewiesen, dass die Schlüsselkomponente für eine gesunde vegane Ernährung 
         die sorgfältige Auswahl und Vielfalt der Lebensmittel ist.
       </>}

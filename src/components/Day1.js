@@ -7,7 +7,7 @@ const Day1Content = () => {
     <Card 
       content={{
         headline: "Türchen 1 – Was ist Veganismus?",
-        img: "adventcalendar/assets/earth.jpg",
+        img: "./assets/earth.jpg",
         imgDesc: "Erde",
         icon: "leaf",
         subtitle: "Nur ein Ernährungstrend?",
@@ -27,6 +27,6 @@ const Day1Content = () => {
       </>}
     />
   );
-}
+};
 
 export default Day1Content;

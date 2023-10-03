@@ -6,7 +6,7 @@ const Day15Content = () => {
     <Card 
       content={{
         headline: "Türchen 15 – Tipps",
-        img: "adventcalendar/assets/shopping.jpg",
+        img: "./assets/shopping.jpg",
         imgDesc: "Shopping",
         icon: "storefront",
         subtitle: "Versehentlich vegane Lebensmittel",

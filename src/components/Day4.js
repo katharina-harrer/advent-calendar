@@ -6,7 +6,7 @@ const Day4Content = () => {
      <Card 
         content={{
           headline: "Türchen 4 – Motivation finden",
-          img: "adventcalendar/assets/farmAnimals.jpg",
+          img: "./assets/farmAnimals.jpg",
           imgDesc: "Tiere",
           icon: "paw",
           subtitle: "Vegan für die Tiere",

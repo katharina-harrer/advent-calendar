@@ -7,7 +7,7 @@ const Day12Content = () => {
     <Card 
       content={{
         headline: "Türchen 12 – Deine persönliche Challenge",
-        img: "adventcalendar/assets/dailyDozen.jpg",
+        img: "./assets/dailyDozen.jpg",
         imgDesc: "Vegetables",
         icon: "nutrition",
         subtitle: "Die Daily Dozen",
@@ -23,7 +23,7 @@ const Day12Content = () => {
         optimale Gesundheit zu unterstützen. 
         <br/>
         <Heading title={'Die Daily Dozen'} icon={'leaf'} />
-        <ul>
+        <ul className="list-disc list-inside">
           <li>Beeren (z.B., Blaubeeren, Himbeeren)</li>
           <li>Andere Früchte (z.B., Äpfel, Bananen)</li>
           <li>Gemüse (z.B., Brokkoli, Karotten)</li>
