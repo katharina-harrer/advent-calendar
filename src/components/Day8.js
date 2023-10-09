@@ -6,7 +6,7 @@ const Day8Content = () => {
     <Card 
       content={{
         headline: "Türchen 8 – Motivation finden",
-        img: "./assets/fitness.jpg",
+        img: "adventcalendar/assets/fitness.jpg",
         imgDesc: "Fitness",
         icon: "barbell",
         subtitle: "Vegan für mehr Leistungsfähigkeit",

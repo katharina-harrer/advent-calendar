@@ -96,7 +96,7 @@ const AdventCalendar = () => {
     }
   }
 
-  var title = 'Adventskalender';
+  var title = 'vegan advent';
   var subtitle = 'In nur 24 Tagen zu einem nachhaltigeren Lebensstil';
 
   return (

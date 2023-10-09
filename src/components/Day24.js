@@ -8,7 +8,7 @@ const Day24Content = () => {
     <Card 
       content={{
         headline: "Türchen 24 – Zusammenfassung",
-        img: "./assets/christmas.jpg",
+        img: "adventcalendar/assets/christmas.jpg",
         imgDesc: "Christmas",
         icon: "star",
         subtitle: "Veganismus verstehen und umsetzen",

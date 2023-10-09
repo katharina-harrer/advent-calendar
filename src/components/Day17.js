@@ -6,7 +6,7 @@ const Day17Content = () => {
     <Card 
       content={{
         headline: "Türchen 17 – Tipps",
-        img: "./assets/cooking.jpg",
+        img: "adventcalendar/assets/cooking.jpg",
         imgDesc: "Cooking",
         icon: "pizza",
         subtitle: "Entdecke die Vielfalt",
